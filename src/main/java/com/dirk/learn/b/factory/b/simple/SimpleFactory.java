@@ -1,17 +1,17 @@
-package com.dirk.learn.b_factory_method.a_factory;
+package com.dirk.learn.b.factory.b.simple;
 
+import com.dirk.learn.b.factory.a.factory.AbstractProduct;
 import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author Dirk
- * @date 2020-11-21 10:16
+ * @date 2020-11-21 10:30
  * @description
  */
 @Slf4j
-public class ProductFacotry extends AbstractProductFactory {
+public class SimpleFactory {
 
-    @Override
-    public <T extends AbstractProduct> T getProduct(Class<T> clazz) throws Exception {
+    public static  <T extends AbstractProduct> T getProduct(Class<T> clazz) throws Exception {
         AbstractProduct product;
         try {
             product = (AbstractProduct) Class.forName(clazz.getName()).newInstance();

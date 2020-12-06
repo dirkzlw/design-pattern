@@ -1,6 +1,6 @@
-package com.dirk.learn.b_factory_method.c_multiple_factory;
+package com.dirk.learn.b.factory.c.multiple.factory;
 
-import com.dirk.learn.b_factory_method.a_factory.AbstractProduct;
+import com.dirk.learn.b.factory.a.factory.AbstractProduct;
 
 /**
  * @author Dirk

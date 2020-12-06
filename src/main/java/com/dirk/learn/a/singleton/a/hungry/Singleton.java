@@ -1,4 +1,4 @@
-package com.dirk.learn.a_singleton_pattern.a_hungry;
+package com.dirk.learn.a.singleton.a.hungry;
 
 /**
  * @author Dirk

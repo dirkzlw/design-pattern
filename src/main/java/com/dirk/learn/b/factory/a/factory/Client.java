@@ -1,4 +1,4 @@
-package com.dirk.learn.b_factory_method.a_factory;
+package com.dirk.learn.b.factory.a.factory;
 
 import lombok.extern.slf4j.Slf4j;
 

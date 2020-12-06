@@ -1,6 +1,6 @@
-package com.dirk.learn.a_singleton_pattern.a_hungry;
+package com.dirk.learn.a.singleton.a.hungry;
 
-import com.dirk.learn.a_singleton_pattern.b_lazy.Singleton;
+import com.dirk.learn.a.singleton.b.lazy.Singleton;
 
 /**
  * @author Dirk

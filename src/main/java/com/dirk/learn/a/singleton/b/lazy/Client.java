@@ -1,4 +1,4 @@
-package com.dirk.learn.a_singleton_pattern.b_lazy;
+package com.dirk.learn.a.singleton.b.lazy;
 
 /**
  * @author Dirk

@@ -1,4 +1,4 @@
-package com.dirk.learn.a_singleton_pattern.c_expand;
+package com.dirk.learn.a.singleton.c.expand;
 
 /**
  * @author Dirk

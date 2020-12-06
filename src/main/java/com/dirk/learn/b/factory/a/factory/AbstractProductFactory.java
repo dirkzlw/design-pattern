@@ -1,6 +1,4 @@
-package com.dirk.learn.b_factory_method.c_multiple_factory;
-
-import com.dirk.learn.b_factory_method.a_factory.AbstractProduct;
+package com.dirk.learn.b.factory.a.factory;
 
 /**
  * @author Dirk
@@ -11,10 +9,10 @@ public abstract class AbstractProductFactory {
 
     /**
      * 获取产品
-     *
+     * @param clazz
      * @param <T>
      * @return
      */
-    public abstract <T extends AbstractProduct> T getProduct();
+    public abstract <T extends AbstractProduct> T getProduct(Class<T> clazz) throws Exception;
 
 }

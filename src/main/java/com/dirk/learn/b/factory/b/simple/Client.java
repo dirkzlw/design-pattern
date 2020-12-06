@@ -1,7 +1,7 @@
-package com.dirk.learn.b_factory_method.b_simple_factory;
+package com.dirk.learn.b.factory.b.simple;
 
-import com.dirk.learn.b_factory_method.a_factory.AbstractProduct;
-import com.dirk.learn.b_factory_method.a_factory.Product_02;
+import com.dirk.learn.b.factory.a.factory.AbstractProduct;
+import com.dirk.learn.b.factory.a.factory.Product_02;
 import lombok.extern.slf4j.Slf4j;
 
 /**
