@@ -5,17 +5,17 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @author Dirk
  * @date 2020-11-21 10:20
- * @description
+ * @description 工厂方法模式
  */
 @Slf4j
 public class Client {
 
     public static void main(String[] args) throws Exception {
-        AbstractProductFactory productFactory = new ProductFacotry();
+        AbstractProductFactory productFactory = new ProductFactory();
         AbstractProduct product;
 
         try {
-            product = productFactory.getProduct(Product_01.class);
+            product = productFactory.getProduct(ProductA.class);
             product.setName("红高粱");
             product.defaultRealize();
             product.custRealize();

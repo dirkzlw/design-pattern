@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  * @description
  */
 @Slf4j
-public class ProductFacotry extends AbstractProductFactory {
+public class ProductFactory extends AbstractProductFactory {
 
     @Override
     public <T extends AbstractProduct> T getProduct(Class<T> clazz) throws Exception {

@@ -10,7 +10,7 @@ import com.dirk.learn.b.factory.a.factory.AbstractProduct;
 public class Client {
 
     public static void main(String[] args) {
-        AbstractProductFactory productFactory = new Product_01Facotry();
+        AbstractProductFactory productFactory = new ProductAFacotry();
         AbstractProduct product = productFactory.getProduct();
         product.setName("老茅台");
         product.defaultRealize();

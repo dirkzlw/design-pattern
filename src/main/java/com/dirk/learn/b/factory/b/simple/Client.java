@@ -1,7 +1,7 @@
 package com.dirk.learn.b.factory.b.simple;
 
 import com.dirk.learn.b.factory.a.factory.AbstractProduct;
-import com.dirk.learn.b.factory.a.factory.Product_02;
+import com.dirk.learn.b.factory.a.factory.ProductB;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -15,7 +15,7 @@ public class Client {
     public static void main(String[] args) throws Exception {
         AbstractProduct product;
         try {
-            product = SimpleFactory.getProduct(Product_02.class);
+            product = SimpleFactory.getProduct(ProductB.class);
             product.setName("简单工厂");
             product.defaultRealize();
             product.custRealize();
